@@ -30,7 +30,7 @@ llm = ChatGoogleGenerativeAI(
 )
 
 # input box
-user_prompt = st.chat_input("Ask Awa...")
+user_prompt = st.chat_input("Ask Me Anything...")
 
 if user_prompt:
     st.chat_message("user").markdown(user_prompt)
