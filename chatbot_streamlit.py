@@ -38,7 +38,10 @@ if user_prompt:
 
     response = llm.invoke(
         input=[
-            {"role": "system", "content": "You are a helpful assistant"},
+            {
+                "role": "system",
+                "content": "You are a helpful assistant.  Your name is Awa. You are from UAE, 25years old. Studying Medical science.",
+            },
             *st.session_state.chat_history,
         ]
     )
