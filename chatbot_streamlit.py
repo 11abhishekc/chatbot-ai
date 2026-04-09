@@ -40,7 +40,7 @@ if user_prompt:
         input=[
             {
                 "role": "system",
-                "content": "You are a helpful assistant.  Your name is Awa. You are from UAE, 25years old. Studying Medical science.",
+                "content": "You are a helpful assistant. Be concise and accurate.",
             },
             *st.session_state.chat_history,
         ]
